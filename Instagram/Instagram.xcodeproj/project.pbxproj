@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38314F6D1BD99B9900FE2487 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38314F6C1BD99B9900FE2487 /* PhotosViewController.m */; settings = {ASSET_TAGS = (); }; };
+		38314F701BD99DDE00FE2487 /* PhotosUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38314F6F1BD99DDE00FE2487 /* PhotosUITableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		38F2A17B1BD991C600ED869C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2A17A1BD991C600ED869C /* main.m */; };
 		38F2A17E1BD991C600ED869C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2A17D1BD991C600ED869C /* AppDelegate.m */; };
-		38F2A1811BD991C600ED869C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F2A1801BD991C600ED869C /* ViewController.m */; };
 		38F2A1841BD991C600ED869C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F2A1821BD991C600ED869C /* Main.storyboard */; };
 		38F2A1861BD991C600ED869C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F2A1851BD991C600ED869C /* Assets.xcassets */; };
 		38F2A1891BD991C600ED869C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F2A1871BD991C600ED869C /* LaunchScreen.storyboard */; };
@@ -37,12 +38,14 @@
 
 /* Begin PBXFileReference section */
 		368074A27CD3E1341F0FFEAD /* libPods-Instagram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Instagram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38314F6B1BD99B9900FE2487 /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
+		38314F6C1BD99B9900FE2487 /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
+		38314F6E1BD99DDD00FE2487 /* PhotosUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosUITableViewCell.h; sourceTree = "<group>"; };
+		38314F6F1BD99DDE00FE2487 /* PhotosUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosUITableViewCell.m; sourceTree = "<group>"; };
 		38F2A1761BD991C600ED869C /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F2A17A1BD991C600ED869C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		38F2A17C1BD991C600ED869C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		38F2A17D1BD991C600ED869C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		38F2A17F1BD991C600ED869C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		38F2A1801BD991C600ED869C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		38F2A1831BD991C600ED869C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38F2A1851BD991C600ED869C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38F2A1881BD991C600ED869C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -117,11 +120,13 @@
 		38F2A1781BD991C600ED869C /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
+				38314F6B1BD99B9900FE2487 /* PhotosViewController.h */,
+				38314F6C1BD99B9900FE2487 /* PhotosViewController.m */,
 				38F2A17C1BD991C600ED869C /* AppDelegate.h */,
 				38F2A17D1BD991C600ED869C /* AppDelegate.m */,
-				38F2A17F1BD991C600ED869C /* ViewController.h */,
-				38F2A1801BD991C600ED869C /* ViewController.m */,
 				38F2A1821BD991C600ED869C /* Main.storyboard */,
+				38314F6E1BD99DDD00FE2487 /* PhotosUITableViewCell.h */,
+				38314F6F1BD99DDE00FE2487 /* PhotosUITableViewCell.m */,
 				38F2A1851BD991C600ED869C /* Assets.xcassets */,
 				38F2A1871BD991C600ED869C /* LaunchScreen.storyboard */,
 				38F2A18A1BD991C600ED869C /* Info.plist */,
@@ -345,8 +350,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38F2A1811BD991C600ED869C /* ViewController.m in Sources */,
+				38314F701BD99DDE00FE2487 /* PhotosUITableViewCell.m in Sources */,
 				38F2A17E1BD991C600ED869C /* AppDelegate.m in Sources */,
+				38314F6D1BD99B9900FE2487 /* PhotosViewController.m in Sources */,
 				38F2A17B1BD991C600ED869C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
